@@ -23,7 +23,7 @@ const SinglePlayer: FunctionComponent = () => {
     };
 
     useEffect(() => {
-        go();
+        if (token) go();
     }, [token]);
 
     return (

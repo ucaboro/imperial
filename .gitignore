@@ -17,6 +17,8 @@ out.png
 journal.txt
 .journals
 
+/node_modules
+
 .env
 
 docker

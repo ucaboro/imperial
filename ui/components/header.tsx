@@ -90,7 +90,7 @@ const Header: FunctionComponent<{
                 className={classNames(
                     textClass,
                     "w-full flex items-center justify-center px-4 py-1 border border-transparent rounded-md shadow-sm text-base font-medium " +
-                        "text-white bg-indigo-700 hover:bg-red-800",
+                    "text-white bg-indigo-700 hover:bg-red-800",
                 )}
                 onClick={() => signOutProcess()}
             >
@@ -218,27 +218,27 @@ const Header: FunctionComponent<{
                         <div className="py-6 px-5">
                             <div className="grid grid-cols-2 gap-4">
                                 <Link href="/lobby">
-                                    <a className={textClass}>Lobby</a>
+                                    <div className={textClass}>Lobby</div>
                                 </Link>
 
-                                <a
+                                <div
                                     href="https://discord.com/invite/3TUqQX5acg"
                                     className={textClass}
                                 >
                                     Community
-                                </a>
+                                </div>
 
                                 <Link href="/rules">
-                                    <a className={textClass}>Rules</a>
+                                    <div className={textClass}>Rules</div>
                                 </Link>
                                 <Link href="https://blog.imperials.app">
-                                    <a className={textClass}>Blog</a>
+                                    <div className={textClass}>Blog</div>
                                 </Link>
                                 <Link href="/maps">
-                                    <a className={textClass}>Map Editor</a>
+                                    <div className={textClass}>Map Editor</div>
                                 </Link>
                                 <Link href="/privacy">
-                                    <a className={textClass}>Privacy</a>
+                                    <div className={textClass}>Privacy</div>
                                 </Link>
                             </div>
                             <div className="mt-6 flex flex-row space-x-3">
